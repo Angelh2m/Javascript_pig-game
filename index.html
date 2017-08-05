@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="styles/game.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
+        <title>Javascript Pig Game | Angel Hernandez</title>
+    </head>
+    <body>
+
+
+<div>
+  <p class="rules">
+    The first one to reach a score of 100 is the winner <br />
+    - If you get a 1 your turn will be passed to the next player<br />
+    - Remember to click hold to store your current score <br />
+  </p>
+
+
+
+</div>
+
+
+  <div class="container">
+
+    <div>
+      <div class="box1 player-0-panel active">
+        <div>
+          <h2 id="score-0" >160 </h2>
+
+          <div class="s_box">
+            <p id="name-0">
+              Player one:
+            </p>
+            <span id="current-0" >12 </span>
+          </div>
+
+
+
+        </div>
+      </div>
+      <div class="box2">
+          <!-- <div class="dice"> -->
+            <img class='dice' src="dice-1.png" />
+          <!-- </div> -->
+      </div>
+      <div class="box1 player-1-panel">
+        <div>
+          <h2 id="score-1" >160 </h2>
+          <div class="s_box">
+            <p id="name-1">
+              Player two:
+            </p>
+            <span id="current-1" >22 </span>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="interface">
+      <div class="box1">
+
+      </div>
+      <div class="box2">
+
+        <a class="button"> Roll the dice</a>
+        <div>
+          <strong class='hold'>HOLD</strong>
+        </div>
+
+      </div>
+
+      <div class="box1">
+        <div>
+
+          <div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <i class="ion-ios-plus-outline new "> New Game </i>
+
+
+
+  </div>
+
+
+
+        <script src="js/app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,171 @@
+/* Put your CSS code in the left column, instead of example, to put or remove unnecessary prefixes. */
+
+.example {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+  background: -webkit-linear-gradient(top, white, black);
+  background: -o-linear-gradient(top, white, black);
+  background: linear-gradient(to bottom, white, black);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  background-image: url('../img/game.jpg');
+}
+
+.rules {
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.65);
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.active {
+  background-color: blue;
+}
+
+.container {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 65px;
+  background-color: white;
+  padding: 41px;
+}
+
+.box2 {
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+}
+
+.winner {
+  background-color: #d73754 !important;
+}
+
+.points {
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  margin-top: 85px;
+  font-size: 29px;
+}
+
+.points strong {
+  background-color: #ebebeb;
+  padding: 25px;
+}
+
+.box1 {
+  text-align: center;
+  background-color: white;
+  width: 33%;
+  display: inline-block;
+}
+
+.box1 span {
+  background-color: #74c674;
+  padding: 2% 5%;
+  margin-left: 15px;
+}
+
+.box1 .s_box {
+  color: white;
+  background-color: #9ddf9d;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.box2 img {
+  width: 81px;
+  border: solid 1px whitesmoke;
+}
+
+.box2 strong {
+  margin-top: 50px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.container i {
+  float: right;
+}
+
+.button {
+  background-color: #433E59;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  -webkit-transition: color .4s ease-out, background-color .4s ease-out;
+  -o-transition: color .4s ease-out, background-color .4s ease-out;
+  transition: color .4s ease-out, background-color .4s ease-out;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #282828;
+  -webkit-transition: color .4s ease-out, background-color .4s ease-out;
+  -o-transition: color .4s ease-out, background-color .4s ease-out;
+  transition: color .4s ease-out, background-color .4s ease-out;
+}
+
+.dice {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 12%;
+  position: relative;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.interface {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  margin-top: 130px;
+}
